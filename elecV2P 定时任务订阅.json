@@ -1,7 +1,7 @@
 {
   "name": "elecV2P 定时任务订阅",
   "author": "留个名字",
-  "desc": "小加东专用订阅任务，",
+  "desc": "小加东专用订阅任务",
   "date": "2021-04-10 15:24:57",
   "list": [
     {
@@ -20,33 +20,6 @@
       "job": {
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_try.js"
-      }
-    },
-    {
-      "name": "抖音火山版",
-      "type": "cron",
-      "time": "*/5 6-23 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/huoshan.js"
-      }
-    },
-    {
-      "name": "快手",
-      "type": "cron",
-      "time": "20 6 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js"
-      }
-    },
-    {
-      "name": "小米运动",
-      "type": "cron",
-      "time": "15 17 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/xmSports.js"
       }
     },
     {
@@ -200,15 +173,6 @@
       "job": {
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js"
-      }
-    },
-    {
-      "name": "步步宝",
-      "type": "cron",
-      "time": "0,30 * * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/adwktt/adwktt/master/BBB.js"
       }
     },
     {
